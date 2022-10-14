@@ -1,0 +1,13 @@
+worcs_version: 0.1.10
+creator: vanlissa
+entry_point: manuscript/manuscript.Rmd
+data:
+  dat.csv:
+    save_expression: write.csv(x = data, file = filename, row.names = FALSE)
+    load_expression: read.csv(file = filename, stringsAsFactors = TRUE)
+    synthetic: synthetic_dat.csv
+    codebook: codebook_dat.Rmd
+    labels: value_labels_dat.yml
+checksums:
+  dat.csv: f6a7897f92c6d8abe4d42c6a3d1d8b60
+  synthetic_dat.csv: ac58430ab25ca72eca2dd41c82f525ed

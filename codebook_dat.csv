@@ -1,0 +1,3 @@
+"name","type","n","missing","unique","mean","median","mode","mode_value","sd","v","min","max","range","skew","skew_2se","kurt","kurt_2se","category","description"
+"sex","character",60,0,3,NA,NA,42,"Women",NA,0.42,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"shoesize","numeric",60,0,12,40.2,40,40,NA,2.5011861592832,NA,36.5,44.5,8,0.288453223400594,0.467215598361507,-1.09330781452504,-0.898374831877239,NA,NA
